@@ -19,7 +19,7 @@ public class Main {
         int result = calculator.add(a, b);
         int result1 = calculator.minus(a,b);
         long result2 = calculator.multiply(a,b);
-        int result3 = calculator.division(a,b);
+        double result3 = calculator.division(a,b);
 
         System.out.println(result);
         System.out.println(result1);
@@ -33,8 +33,10 @@ public class Main {
         boolean isOdd = checker.isOdd(result);
 
 
+
         System.out.println(isEven);
         System.out.println(isOdd);
+
     }
 
 }

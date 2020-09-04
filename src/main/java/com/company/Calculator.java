@@ -20,9 +20,10 @@ public class Calculator {
         return c;
     }
 
-    public int division(int a, int b) {
+    public double division(int a, int b) {
+        double d = (double) a / b;
 
-        return a / b;
+        return d;
     }
 
 
